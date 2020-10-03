@@ -2,6 +2,8 @@ import random
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_markdown
 import time
+import os
+
 random_num = random.randrange(1,101)
 num_count = 0
 num_round = 0
